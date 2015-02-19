@@ -1,0 +1,20 @@
+###########
+# site.url, site.title
+
+url:   'https://github.com/nilshoffmann/maltcms-extension-module'
+title: 'Maltcms Extension Module'
+
+
+########
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style: expanded
+
+exclude:
+- README.md
+
+safe: true
+lsi: false

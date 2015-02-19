@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>{{ page.title }} - {{ site.title }}</title>
+
+   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" >
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+   <!-- START COPYING HERE -->
+<link rel="stylesheet" href="{{ site.baseurl }}/css/gh-fork-ribbon.css">
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="{{ site.baseurl }}/css/gh-fork-ribbon.ie.css">
+<![endif]-->
+<!-- END COPYING HERE -->
+</head>
+<body>
+<!-- TOP RIGHT RIBBON: START COPYING HERE -->
+<div class="github-fork-ribbon-wrapper right">
+<div class="github-fork-ribbon">
+<a href="{{ site.url }}">Fork me on GitHub</a>
+</div>
+</div>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">{{ site.title }}</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="content">
+        {{ content }}
+      </div>
+    </div><!-- /.container -->
+
+</body>
+</html>
