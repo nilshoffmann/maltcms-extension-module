@@ -1,7 +1,8 @@
 ###########
 # site.url, site.title
 
-url:   'https://github.com/nilshoffmann/maltcms-extension-module'
+url:   'http://nilshoffmann.github.io/maltcms-extension-module'
+project.url:   'https://github.com/nilshoffmann/maltcms-extension-module'
 title: 'Maltcms Extension Module'
 
 
